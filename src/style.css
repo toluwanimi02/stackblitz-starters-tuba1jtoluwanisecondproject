@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: #132043;
+  background-color:#1F4172;
+  height: 100vh;
+}
+
+.countContainer {
+  text-align: center;
+  margin: 0 auto;
+  border: 4px double gray;
+  background-color: #1c1b1d;
+  border-radius: 0.5rem;
+  max-height: auto;
+  max-width: 60%;
+}
+h1 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.buttonclov {
+  margin-bottom: 10px;
+}
+.increment {
+  width: 7rem;
+  height: 3rem;
+  margin-inline: 10px;
+  margin-block-start: 9px;
+  border: 5px solid transparent;
+  animation: border-color-animation 3s infinite;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 31, 46);
+  box-shadow: 1px 1px 8px 2px #003e80;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(0, 182, 136);
+}
+@keyframes border-color-animation {
+  0% {
+    border-color: #bf80ff;
+  }
+  25% {
+    border-color: #8080ff;
+  }
+  50% {
+    border-color: #80bfff;
+  }
+  100% {
+    border-color: #80ffff;
+  }
+  100% {
+    border-color: #a651fa;
+  }
+  100% {
+    border-color: #bf80ff;
+  }
+}
+.homepage {
+  text-align: center;
+}
+.errorpagetest {
+  text-align: center;
+}
+.numCount {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgba(253, 101, 0, 0.89);
+}
+.mainpage {
+  background: linear-gradient(to right, #f321a3, #ff4208, #23cf96, #f7e707);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+}
+.mainpage > h1 {
+  font-size: 3rem;
+}
+.mainpage h1:nth-child(2) {
+  font-size: 5rem;
+}
+.navlink {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.links {
+  color: #ffd000;
+  background-color: #29d49f;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: fit-content;
+  padding-inline: 15px;
+  padding-block: 5px;
+  border: 2px solid #00ffae;
+  border-radius: 0.6rem;
+  list-style: none;
+}
+.linksto {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+}
+.home {
+  color: #4e4e52;
+  font-weight: 900;
+}
+span {
+  background: none;
+  -webkit-text-fill-color: tomato;
+  -webkit-background-clip: border-box;
+}
+.errorpage {
+  background: linear-gradient(to right, #2521f3, #ff0808, #cfcc23, #07f7a7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-weight: 900;
+  font-size: xxx-large;
+}
+.errorbtn {
+  border: 3px solid rgb(98, 0, 255);
+  background-color: rgb(103, 99, 122);
+  border-radius: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+.errorContainer {
+  margin: auto 0;
+  margin-block-start: 5rem;
+  display: flex;
+  flex-direction: column;
+}
