@@ -27,7 +27,6 @@ function App() {
             </Link>
           </li>
         </ul>
-        <hr></hr>
         <Routes>
           <Route path="*" element={<FourzeroFourPage />} />
           <Route path="/" element={<Homepage />} />

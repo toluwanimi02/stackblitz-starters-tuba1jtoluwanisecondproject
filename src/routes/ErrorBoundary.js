@@ -19,7 +19,7 @@ class ErrorBoundary extends Component {
             <i className="errorpage">Oops...</i>
             <h1 className="errorpage">
               {" "}
-              Something went wrong. <span>😥</span>{" "}
+              Error Occured. {" "}
             </h1>
           </div>
         </>

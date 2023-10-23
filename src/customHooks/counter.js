@@ -25,7 +25,6 @@ const Counters = () => {
 
   return (
     <div className="countContainer">
-      <h1>The Counter Page</h1>
       <p className="numCount">Count: {counters}</p>
       <div className="buttonstyle">
         <button className="increment" onClick={increment}>
@@ -38,7 +37,7 @@ const Counters = () => {
           Reset
         </button>
         <button
-          className="increase"
+          className="valstyle"
           onClick={() => setCounters((value) => (value = 10))}
         >
           Value

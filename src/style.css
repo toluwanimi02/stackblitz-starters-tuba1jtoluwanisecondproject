@@ -42,7 +42,7 @@ h1 {
 }
 
 .qtest {
-  max-width: 75%;
+  max-width: 50%;
   margin: 0 20px ;
 }
 
@@ -90,23 +90,20 @@ h1 {
   color:  #3c4449;
 }
 
-.mainpage {
-  background: linear-gradient(to right, #f321a3, #ff4208, #23cf96, #f7e707);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  text-align: center;
-}
 .mainpage > h1 {
   font-size: 3rem;
 }
+
 .mainpage h1:nth-child(2) {
   font-size: 5rem;
 }
+
 .navlink {
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
+
 .links {
   color:  #FF6969;
   background-color: #445d48;
@@ -119,24 +116,26 @@ h1 {
   border-radius: 0.6rem;
   list-style: none;
 }
+
 .linksto {
   text-decoration: none;
   font-weight: 600;
   color: #ffffff;
+
 }
+
 .home {
   color: #4e4e52;
   font-weight: 900;
 }
 
 .errorpage {
-  background: linear-gradient(to right, #2521f3, #ff0808, #cfcc23, #07f7a7);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: #4e4e52 ;
   text-align: center;
   font-weight: 900;
   font-size: xxx-large;
 }
+
 .errorbtn {
   border: 3px solid  #D6CC99;
   background-color:  #FDE5D4;
@@ -147,6 +146,7 @@ h1 {
   padding-inline: 1rem;
   padding-block: 1rem;
 }
+
 .errorContainer {
   margin: auto 0;
   margin-block-start: 5rem;
@@ -157,5 +157,5 @@ h1 {
 .footer {
   color: #ffff;
   margin-top: 20%;
-  padding-left: 30%;
+  padding-left: 43%;
 }

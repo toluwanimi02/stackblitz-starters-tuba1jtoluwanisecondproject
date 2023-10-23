@@ -5,7 +5,7 @@ function FourZeroFourPage() {
     <div className="mainpage">
       <h1>Error! </h1>
       <h1>404</h1>
-      <h1>page not found</h1>
+      <h1>page not found....</h1>
     </div>
   );
 }
