@@ -27,7 +27,7 @@ const Counters = () => {
     <div className="countContainer">
       <h1>The Counter Page</h1>
       <p className="numCount">Count: {counters}</p>
-      <div className="buttonclov">
+      <div className="buttonstyle">
         <button className="increment" onClick={increment}>
           Increment
         </button>

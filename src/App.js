@@ -13,7 +13,7 @@ function App() {
         <ul className="navlink">
           <li className="links">
             <Link className="linksto home" to="/">
-              Home page{" "}
+              Home {" "}
             </Link>
           </li>
           <li className="links">
